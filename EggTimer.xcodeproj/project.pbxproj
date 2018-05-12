@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE65F91720A68908002D3FD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE65F91620A68908002D3FD5 /* AppDelegate.m */; };
+		BE65F91A20A68908002D3FD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE65F91920A68908002D3FD5 /* ViewController.m */; };
+		BE65F91C20A6890A002D3FD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE65F91B20A6890A002D3FD5 /* Assets.xcassets */; };
+		BE65F91F20A6890A002D3FD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE65F91D20A6890A002D3FD5 /* Main.storyboard */; };
+		BE65F92220A6890A002D3FD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE65F92120A6890A002D3FD5 /* main.m */; };
+		BE65F93120A68955002D3FD5 /* PrefsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE65F92C20A68955002D3FD5 /* PrefsViewController.m */; };
+		BE65F93220A68955002D3FD5 /* EggTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = BE65F92E20A68955002D3FD5 /* EggTimer.m */; };
+		BE65F93320A68955002D3FD5 /* Preferences.m in Sources */ = {isa = PBXBuildFile; fileRef = BE65F93020A68955002D3FD5 /* Preferences.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE65F91220A68908002D3FD5 /* EggTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE65F91520A68908002D3FD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE65F91620A68908002D3FD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE65F91820A68908002D3FD5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE65F91920A68908002D3FD5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE65F91B20A6890A002D3FD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE65F91E20A6890A002D3FD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE65F92020A6890A002D3FD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE65F92120A6890A002D3FD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE65F92320A6890A002D3FD5 /* EggTimer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EggTimer.entitlements; sourceTree = "<group>"; };
+		BE65F92B20A68954002D3FD5 /* PrefsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefsViewController.h; sourceTree = "<group>"; };
+		BE65F92C20A68955002D3FD5 /* PrefsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrefsViewController.m; sourceTree = "<group>"; };
+		BE65F92D20A68955002D3FD5 /* EggTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EggTimer.h; sourceTree = "<group>"; };
+		BE65F92E20A68955002D3FD5 /* EggTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EggTimer.m; sourceTree = "<group>"; };
+		BE65F92F20A68955002D3FD5 /* Preferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Preferences.h; sourceTree = "<group>"; };
+		BE65F93020A68955002D3FD5 /* Preferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Preferences.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE65F90F20A68908002D3FD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE65F90920A68908002D3FD5 = {
+			isa = PBXGroup;
+			children = (
+				BE65F91420A68908002D3FD5 /* EggTimer */,
+				BE65F91320A68908002D3FD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE65F91320A68908002D3FD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE65F91220A68908002D3FD5 /* EggTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE65F91420A68908002D3FD5 /* EggTimer */ = {
+			isa = PBXGroup;
+			children = (
+				BE65F92A20A68917002D3FD5 /* Model */,
+				BE65F92920A68911002D3FD5 /* Controller */,
+				BE65F91520A68908002D3FD5 /* AppDelegate.h */,
+				BE65F91620A68908002D3FD5 /* AppDelegate.m */,
+				BE65F91B20A6890A002D3FD5 /* Assets.xcassets */,
+				BE65F91D20A6890A002D3FD5 /* Main.storyboard */,
+				BE65F92020A6890A002D3FD5 /* Info.plist */,
+				BE65F92120A6890A002D3FD5 /* main.m */,
+				BE65F92320A6890A002D3FD5 /* EggTimer.entitlements */,
+			);
+			path = EggTimer;
+			sourceTree = "<group>";
+		};
+		BE65F92920A68911002D3FD5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE65F91820A68908002D3FD5 /* ViewController.h */,
+				BE65F91920A68908002D3FD5 /* ViewController.m */,
+				BE65F92B20A68954002D3FD5 /* PrefsViewController.h */,
+				BE65F92C20A68955002D3FD5 /* PrefsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BE65F92A20A68917002D3FD5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE65F92D20A68955002D3FD5 /* EggTimer.h */,
+				BE65F92E20A68955002D3FD5 /* EggTimer.m */,
+				BE65F92F20A68955002D3FD5 /* Preferences.h */,
+				BE65F93020A68955002D3FD5 /* Preferences.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE65F91120A68908002D3FD5 /* EggTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE65F92620A6890A002D3FD5 /* Build configuration list for PBXNativeTarget "EggTimer" */;
+			buildPhases = (
+				BE65F90E20A68908002D3FD5 /* Sources */,
+				BE65F90F20A68908002D3FD5 /* Frameworks */,
+				BE65F91020A68908002D3FD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EggTimer;
+			productName = EggTimer;
+			productReference = BE65F91220A68908002D3FD5 /* EggTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE65F90A20A68908002D3FD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Frank;
+				TargetAttributes = {
+					BE65F91120A68908002D3FD5 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = BE65F90D20A68908002D3FD5 /* Build configuration list for PBXProject "EggTimer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE65F90920A68908002D3FD5;
+			productRefGroup = BE65F91320A68908002D3FD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE65F91120A68908002D3FD5 /* EggTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE65F91020A68908002D3FD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE65F91C20A6890A002D3FD5 /* Assets.xcassets in Resources */,
+				BE65F91F20A6890A002D3FD5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE65F90E20A68908002D3FD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE65F91A20A68908002D3FD5 /* ViewController.m in Sources */,
+				BE65F92220A6890A002D3FD5 /* main.m in Sources */,
+				BE65F93320A68955002D3FD5 /* Preferences.m in Sources */,
+				BE65F91720A68908002D3FD5 /* AppDelegate.m in Sources */,
+				BE65F93120A68955002D3FD5 /* PrefsViewController.m in Sources */,
+				BE65F93220A68955002D3FD5 /* EggTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE65F91D20A6890A002D3FD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE65F91E20A6890A002D3FD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE65F92420A6890A002D3FD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BE65F92520A6890A002D3FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BE65F92720A6890A002D3FD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EggTimer/EggTimer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 39L73ZT629;
+				INFOPLIST_FILE = EggTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = space.lcy.EggTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE65F92820A6890A002D3FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EggTimer/EggTimer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 39L73ZT629;
+				INFOPLIST_FILE = EggTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = space.lcy.EggTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE65F90D20A68908002D3FD5 /* Build configuration list for PBXProject "EggTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE65F92420A6890A002D3FD5 /* Debug */,
+				BE65F92520A6890A002D3FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE65F92620A6890A002D3FD5 /* Build configuration list for PBXNativeTarget "EggTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE65F92720A6890A002D3FD5 /* Debug */,
+				BE65F92820A6890A002D3FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE65F90A20A68908002D3FD5 /* Project object */;
+}
